@@ -1,0 +1,17 @@
+.type{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2.5rem
+}
+.type .type-item{
+	width: 20%;
+	text-align: center;
+}
+.type .type-item .item-icon{
+	width: 60%;
+}
+.type .type-item .item-name{
+	margin-top: .5rem;
+	margin-bottom: 1.5rem;
+	font-size: 1.3rem
+}

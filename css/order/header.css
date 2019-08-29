@@ -1,0 +1,9 @@
+.header{
+	font-size: 1.6rem;
+	height: 5rem;
+	line-height: 5rem;
+	border-bottom: 1px solid #b2b2b2;
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+}

@@ -1,0 +1,35 @@
+/*主容器用绝对定位固定高度*/
+.main{
+	display: flex;
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 11.5rem;
+    left: 0;
+    overflow: hidden;
+}
+
+.left-bar{
+	background: #efefef;
+	font-size: 1.4rem;
+	color: #656565;
+	overflow: auto;
+	padding-bottom: 10rem;
+	-webkit-overflow-scrolling: touch;
+}
+.left-bar .left-item{
+	width: 8.5rem;
+	height: 6.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #bfbfbf;
+}
+.left-bar .left-item .item-icon{
+	width: 2rem;
+	height: 2rem;
+	margin-right: .5rem
+}
+.left-bar .left-item.active{
+	background: #fff
+}

@@ -1,0 +1,11 @@
+.search-bar input{
+	width: 18rem;
+	height: 3rem;
+	line-height: 3rem;
+	border:none;
+	border-radius: 1.5rem;
+	padding-left: 3rem;
+	background: url(../../static/index/searchIcon.png) 1rem center/1.4rem 1.4rem no-repeat;
+	background-color: #fff;
+	font-size: 1.3rem
+}

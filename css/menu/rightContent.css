@@ -1,0 +1,87 @@
+.right-content {
+    flex: 1;
+    margin-left: 1rem;
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.right-content .right-title {
+    font-size: 1.3rem;
+    color: #333;
+    margin-top: 1rem;
+    padding-left: .4rem;
+    border-left: .2rem solid #ffd161;
+}
+
+.right-content .right-list{
+    padding-bottom: 8.5rem;
+}
+
+.right-content .list-item{
+	display: flex;
+	padding: 2.5rem 0;
+	position: relative;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.right-content .list-item .img{
+	width: 6.2rem;
+    height: 6.2rem;
+    margin-right: 1rem;
+}
+
+.right-content .list-item .list-item-right{
+    flex:1;
+}
+.right-content .item-title {
+	font-size: 1.6rem;
+	color: #2f2f2f;
+}
+
+.item-zan,.item-desc {
+    color: #a9a9a9;
+    font-size: 1.2rem;
+    margin-top: .6rem;
+    line-height: 1.6rem;
+    padding-right: .5rem;
+}
+
+.right-content .item-price {
+    margin-top: 1rem;
+    color: #fe4d3d;
+    font-size: 1.8rem;
+}
+.right-content .unit {
+    color: #a9a9a9;
+    font-size: 1.2rem;
+}
+.right-content .select-content {
+    position: absolute;
+    right: .9rem;
+    bottom: 2.4rem;
+    display: flex;
+}
+
+.right-content .plus {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url('../../static/menu/plus.png');
+    background-size: cover;
+}
+.right-content .minus {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url('../../static/menu/minus.png');
+    background-size: cover;
+}
+.right-content .count {
+    font-size: 1.5rem;
+    color: #2f2f2f;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    text-align: center;
+}
+
