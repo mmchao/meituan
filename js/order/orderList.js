@@ -23,7 +23,7 @@
         $('.loading').text('加载中');
     	setTimeout(function(){
     		
-	    	$.get('../../static/json/orders.json', function(res){		
+	    	$.get('./static/json/orders.json', function(res){		
     			console.log(res)
     			var list = res.data.digestlist || []
     			appendList(list)
