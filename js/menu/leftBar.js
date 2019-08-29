@@ -4,8 +4,9 @@
     function getFoodList(){
     	$.get('./static/json/food.json',function(res){
     		window.food_spu_tags = res.data.food_spu_tags || []  // 获取食物分类列表 定义到全局变量
-    		initLeftBar(window.food_spu_tags) // ajax是异步执行 初始化右侧列表要放在回调里 否则渲染不出来 
-
+    		initLeftBar(window.food_spu_tags) // ajax是异步执行 初始化右侧列表要放在回调里 否则渲染不出来
+            // 更新配送费
+            $('.shipping-fee').text(res.data.poi_info.shipping_fee)
     	})
     }
 
